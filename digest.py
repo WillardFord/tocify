@@ -19,7 +19,12 @@ def make_openai_client() -> OpenAI:
         raise RuntimeError("OPENAI_API_KEY is missing or does not look like an OpenAI key (expected to start with 'sk-').")
 
     http_client = httpx.Client(
-        timeout=httpx.Timeout(60.0, connect=20.0),
+        timeout=httpx.Timeout(
+            connect=30.0,
+            read=180.0,   # <-- key: allow slow responses
+            write=30.0,
+            pool=30.0,
+        ),
         http2=False,
         trust_env=False,
         headers={"Connection": "close"},  # reduces some h11 edge cases
@@ -36,7 +41,7 @@ INTERESTS_MAX_CHARS = int(os.getenv("INTERESTS_MAX_CHARS", "12000"))
 SUMMARY_MAX_CHARS = int(os.getenv("SUMMARY_MAX_CHARS", "2000"))
 
 # Only include items newer than this many days (helps avoid old backlog flooding)
-LOOKBACK_DAYS = int(os.getenv("LOOKBACK_DAYS", "14"))
+LOOKBACK_DAYS = int(os.getenv("LOOKBACK_DAYS", "7"))
 
 # ---------- Helpers ----------
 def load_lines(path: str) -> list[str]:
