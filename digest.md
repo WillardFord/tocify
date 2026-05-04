@@ -1,177 +1,160 @@
-# Weekly ToC Digest (week of 2026-04-27)
+# Weekly ToC Digest (week of 2026-05-04)
 
-Papers were evaluated based on their relevance to neural time series, oscillations, signal processing, etc. Most items from clinical/psychiatric areas and unrelated biological fields were heavily downweighted. Prioritized methods and technologies related to neural and physiological data processing, with an emphasis on electrophysiology and computational approaches. Prioritized items based on relevance to neural dynamics and computational neuroscience. This week's feed contains several articles not aligned with your interests in neural/physiological time series analysis and related computational methods. None of the items involve oscillations, spectral parameterization, or electrophysiology directly, resulting in uniformly low scores.
+Prioritized based on neural/physiological time series methods, oscillations and aperiodic dynamics, spectral parameterization, neuronal timescales, cross-species electrophysiology, and physiological signal processing. Papers with strong electrophysiology or computational modeling aspects were ranked higher. Papers were triaged based on relevance to neural/physiological time series and related interests. Methods papers with electrophysiology aspects scored higher. This week's entries focus on advances in neural dynamics and large-scale electrophysiology. No items match the primary interests related to neural/physiological time series, oscillations, spectral parameterization, etc.
 
-**Included:** 10 (score ≥ 0.35)  
-**Scored:** 18 total items
+**Included:** 9 (score ≥ 0.35)  
+**Scored:** 10 total items
 
 ---
 
-## [A cortico-subthalamic circuit rapidly engages and releases inhibition of specific movements depending on the environmental context](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003635)
-*PLOS Biol*  
+## [Large-scale electrophysiology at single-spike resolution](https://www.nature.com/articles/s41583-026-01042-4)
+*Nature Rev Neurosci*  
+Score: **0.95**  
+Published: 2026-05-01T00:00:00+00:00
+Tags: electrophysiology, methods
+
+This paper discusses principles and technologies for recording from thousands of neurons, closely aligning with interests in cross-species electrophysiology and physiological signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Reviews Neuroscience, Published online: 01 May 2026; <a href="https://www.nature.com/articles/s41583-026-01042-4">doi:10.1038/s41583-026-01042-4</a></p>Recent advances in large-scale electrophysiology now enable researchers to record from thousands of neurons distributed across the brain. Siegle and Steinmetz describe the principles underlying this technology and outline the key considerations, challenges and opportunities associated with collecting, analysing and sharing large electro…
+
+</details>
+
+---
+
+## [FPGA realization of fractional-order chaotic oscillators using ABM and EFORK methods](https://www.nature.com/articles/s41598-026-49712-8)
+*Scientific Reports*  
+Score: **0.90**  
+Published: 2026-05-05T00:00:00+00:00
+Tags: methods, oscillations, chaotic
+
+Involves methods for chaotic oscillations, relevant to neural time series and oscillatory dynamics.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Scientific Reports, Published online: 05 May 2026; <a href="https://www.nature.com/articles/s41598-026-49712-8">doi:10.1038/s41598-026-49712-8</a></p>FPGA realization of fractional-order chaotic oscillators using ABM and EFORK methods
+
+</details>
+
+---
+
+## [Theta-band brain synchronization supports the immediate and post-sleep dynamics of memory recall in children](https://www.biorxiv.org/content/10.64898/2026.04.30.721844v1?rss=1)
+*bioRxiv*  
 Score: **0.85**  
-Published: 2026-04-24T14:00:00+00:00
-Tags: neural circuits, electrophysiology, basal ganglia
+Published: 2026-05-02T00:00:00Z
+Tags: EEG, oscillations, memory
 
-Focus on intracranial recordings and basal ganglia circuitry engaging response inhibition aligns with interest in electrophysiology and neural pathways.
+This paper uses EEG to explore theta-band oscillations and memory recall dynamics, components relevant to oscillations and electrophysiology.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>by Cheol Soh, Mario Hervault, Nathan H. Chalkley, Kien Huynh, Qiang Zhang, Ergun Y. Uc, Jeremy D. W. Greenlee, Jan R. Wessel</p> Response inhibition is an important cognitive control mechanism that enables flexible behavior by stopping inappropriate actions. Intracranial recordings across species have identified a neural circuit that implements response inhibition via the subthalamic nucleus of the basal ganglia. However, this work has been limited to simple tasks, in which unequivocal, salie…
+Memory engrams emerge from dynamic, coordinated interactions among synchronized functional brain networks. Yet, how these networks are selectively reactivated upon cued recall and gradually (re)organized over time, especially through sleep, remains poorly understood. Using magnetoencephalography (MEG), sleep electroencephalography (EEG) and behavioral measures, we investigated the spatiotemporal neural dynamics of cued recall memory during immediate and post-sleep (i.e., 90-minute post-learning …
 
 </details>
 
 ---
 
-## [Brain motion is driven by mechanical coupling with the abdomen](https://www.nature.com/articles/s41593-026-02279-z)
-*Nature Neuroscience*  
-Score: **0.80**  
-Published: 2026-04-27T00:00:00+00:00
-Tags: physiological, imaging
-
-Involves physiological processes relevant to neural dynamics and employs imaging methods that can relate to signal processing.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Neuroscience, Published online: 27 April 2026; <a href="https://www.nature.com/articles/s41593-026-02279-z">doi:10.1038/s41593-026-02279-z</a></p>Using two-photon imaging in mice, Garborg et al. show that brain movement within the skull is driven by abdominal muscle contractions through mechanical coupling with the abdomen. Simulations suggest that this brain motion could contribute to cerebrospinal fluid circulation.
-
-</details>
-
----
-
-## [Comparative Mapping of Functional and Structural Homologies in the Pig and Human Brain](https://www.biorxiv.org/content/10.64898/2026.04.22.720235v1?rss=1)
+## [Low-frequency phase temporally coordinates multiple working memory operations](https://www.biorxiv.org/content/10.64898/2026.04.30.721949v1?rss=1)
 *bioRxiv*  
 Score: **0.80**  
-Published: 2026-04-25T00:00:00+00:00
-Tags: cross-species, electrophysiology, brain mapping
+Published: 2026-05-02T00:00:00Z
+Tags: low-frequency, oscillations, working memory
 
-This study directly concerns cross-species electrophysiology, which aligns well with interests in comparative neural dynamics.
+Investigates low-frequency neural oscillations for working memory operations, directly related to interests in neural dynamics and oscillations.
 
 <details>
 <summary>RSS summary</summary>
 
-Comparative mapping of functional and structural homologies across humans, small animals, and nonhuman primates has been extensively pursued due to its strong translational relevance. However, these experimental models possess inherent limitations in fully recapitulating the complexity of human cortical organization. The porcine model has recently emerged as a promising alternative, given its neuroanatomical and physiological similarities to the human brain. Despite these advantages, systematic …
+Working memory unfolds over time, yet how different working memory operations are temporally coordinated remains unclear. Building on prior links between low-frequency neural oscillations and working memory maintenance and retrieval, as well as evidence that low-frequency oscillations help coordinate cognitive functions, we tested whether low-frequency neural oscillations bridge and/or differentiate distinct working memory operations. Specifically, we tested whether low-frequency phase was linke…
 
 </details>
 
 ---
 
-## [Sex-specific effects of exercise on motor coordination and extended basal ganglia physiology.](https://www.biorxiv.org/content/10.64898/2026.04.24.720719v1?rss=1)
+## [A communication subspace relays context-dependent actions from human prefrontal to motor cortex](https://www.nature.com/articles/s41593-026-02290-4)
+*Nature Neuroscience*  
+Score: **0.80**  
+Published: 2026-05-01T00:00:00+00:00
+Tags: methods, neural dynamics
+
+Involves direct brain recordings and population activity coordination, fitting the interest in physiological signal processing and neural time series.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Neuroscience, Published online: 01 May 2026; <a href="https://www.nature.com/articles/s41593-026-02290-4">doi:10.1038/s41593-026-02290-4</a></p>Context-dependent behavior selects actions according to task demands. Using direct brain recordings in humans, Binish et al. uncover how coordinated population activity efficiently channels information from prefrontal to motor cortex.
+
+</details>
+
+---
+
+## [Aging Impairs Temporal Integration in Supragranular but Not Thalamorecipient Layers of Primary Auditory Cortex](https://www.biorxiv.org/content/10.64898/2026.04.30.722032v1?rss=1)
+*bioRxiv*  
+Score: **0.75**  
+Published: 2026-05-02T00:00:00Z
+Tags: aging, temporal integration, auditory cortex
+
+Focuses on age-related dynamics in neural processing, relevant to neuronal timescales and neural integration.
+
+<details>
+<summary>RSS summary</summary>
+
+Speech has harmonic features and speech perception is impaired in aging. Imaging of auditory cortex (A1) in aged mice shows reduced selectivity to harmonic sounds and impaired temporal integration of component frequencies especially in layers 2/3 but not layer 4, suggesting that age-related changes in intracortical processing contribute to the hearing deficits. Since complex sounds can be decoded from aging A1, paradigms enhancing cortical processing might improve hearing in aging.
+
+</details>
+
+---
+
+## [Thalamic Nuclei Functional Controllability Explains Cognition Over and Above Grey and White Matter Structure](https://www.biorxiv.org/content/10.64898/2026.05.01.722231v1?rss=1)
 *bioRxiv*  
 Score: **0.70**  
-Published: 2026-04-24T00:00:00+00:00
-Tags: basal ganglia, neural activity, exercise
+Published: 2026-05-01T00:00:00Z
+Tags: thalamic nuclei, cognition, functional dynamics
 
-Examines neural activity influenced by exercise across basal ganglia, relevant to neural signal modulation and physiology.
+Explores functional controllability in thalamic nuclei, linking thalamic actions with cognitive functions, relevant to physiological processing and cognition.
 
 <details>
 <summary>RSS summary</summary>
 
-Exercise broadly affects the basal ganglia, brain structures involved in motor coordination. Exercise-induced changes in these regions can improve pathological conditions such as Parkinson's disease and substance use disorders. Importantly, biological sex is a significant factor in the effects of exercise and in the presentation of these basal ganglia-related conditions. Here, we find surprising sex differences in exercise's influence over motor coordination and neural activity across three exte…
+Introduction: The thalamic nuclei play a crucial role in regulating information flow to the cortex and supports diverse cognitive functions. Although previous studies have linked thalamic structural and functional characteristics to cognition, these measures do not fully capture the thalamus's role in dynamic control, which is essential for complex cognitive processes. Moreover, it remains unclear how these different metrics relate to each other in the way they account for cognition. Methods: T1…
 
 </details>
 
 ---
 
-## [Cell-type-specific parallel pathways in the canonical cortical microcircuit](https://www.biorxiv.org/content/10.64898/2026.04.23.720412v1?rss=1)
-*bioRxiv*  
-Score: **0.68**  
-Published: 2026-04-24T00:00:00+00:00
-Tags: cortical circuits, connectivity, electrophysiology
-
-Study focuses on cortical microcircuit connectivity, relevant to neuronal timescales and electrophysiology.
-
-<details>
-<summary>RSS summary</summary>
-
-Information processing in the cortex depends on the integration of bottom-up and top-down signals through recurrent microcircuits spanning layers. Although the canonical microcircuit provides a framework for this integration, how these interactions are implemented at synapse resolution remains unclear. Here, we use large-volume electron microscopy reconstructions of mouse primary visual cortex to map the intralaminar and interlaminar connectivity of intratelencephalic (IT) neurons in layers 2/3 …
-
-</details>
-
----
-
-## [Learning temporal structure engages hippocampus and guides value-based behaviour](https://www.biorxiv.org/content/10.64898/2026.04.24.720548v1?rss=1)
+## [Thalamic Nuclei Functional Controllability Accounts for Cognitive Impairment in Multiple Sclerosis Over and Above Structural Damage](https://www.biorxiv.org/content/10.64898/2026.05.01.722249v1?rss=1)
 *bioRxiv*  
 Score: **0.65**  
-Published: 2026-04-24T00:00:00+00:00
-Tags: hippocampus, neural learning, timescales
+Published: 2026-05-02T00:00:00Z
+Tags: thalamus, cognitive impairment, functional connectivity
 
-Involves temporal learning structures and their neural basis, relevant to interest in neuronal timescales.
+Discusses functional connectivity and cognitive impairment related to thalamic nuclei, touching on neural dynamics and structure-function relationships.
 
 <details>
 <summary>RSS summary</summary>
 
-The ability to learn and exploit structured relationships between events is fundamental to adaptive behaviour and episodic-like memory, yet the neural mechanisms that support such learning remain poorly understood. Progress has been limited by the difficulty of dissociating relational structure from sensory cues, value, and motor output in experimentally tractable tasks. Here we introduce a temporally structured olfactory task for mice that isolates relational structure from cue identity and rew…
+Background: The thalamus has emerged as a key region involved in cognitive dysfunction in multiple sclerosis (MS). While previous studies have identified associations between thalamic structural damage, altered functional connectivity, and cognitive performance, the specific contributions of individual thalamic nuclei and the added value of integrating structural and functional metrics remain poorly understood. Methods: T1-weighted MRI, diffusion MRI, resting-state fMRI, and neuropsychological d…
 
 </details>
 
 ---
 
-## [Cheese3D enables sensitive detection and analysis of whole-face movement in mice](https://www.nature.com/articles/s41593-026-02262-8)
-*Nature Neuroscience*  
-Score: **0.60**  
-Published: 2026-04-27T00:00:00+00:00
-Tags: methods, neural, physiological
-
-Presents a method for physiological measurement that may involve neural processes and signal inference.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Neuroscience, Published online: 27 April 2026; <a href="https://www.nature.com/articles/s41593-026-02262-8">doi:10.1038/s41593-026-02262-8</a></p>The authors developed Cheese3D, a hardware–software framework for precise and sensitive measurement of whole-face movements in mice that enables quantitative inference of neural and physiological processes.
-
-</details>
-
----
-
-## [A social readout of circuit imbalance](https://www.nature.com/articles/s41583-026-01048-y)
-*Nature Rev Neurosci*  
-Score: **0.50**  
-Published: 2026-04-27T00:00:00+00:00
-Tags: circuit imbalance, neuronal dynamics, timescales
-
-Focuses on neuronal timescales and circuit dynamics, relevant for understanding excitation-inhibition balance in circuits.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Reviews Neuroscience, Published online: 27 April 2026; <a href="https://www.nature.com/articles/s41583-026-01048-y">doi:10.1038/s41583-026-01048-y</a></p>In this Journal Club, Baolin Guo highlights a 2011 study that linked altered excitation–inhibition balance in prefrontal circuits to social dysfunction in mice.
-
-</details>
-
----
-
-## [A self-organized pencil beam that can be used for fast volumetric imaging](https://www.nature.com/articles/s41592-026-03094-x)
-*Nature Methods*  
-Score: **0.40**  
-Published: 2026-04-27T00:00:00+00:00
-Tags: imaging, methods
-
-Involves imaging technology useful for neural dynamics study and signal processing.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Methods, Published online: 27 April 2026; <a href="https://www.nature.com/articles/s41592-026-03094-x">doi:10.1038/s41592-026-03094-x</a></p>We observed that a stable self-localized ultrafast pencil beam can emerge inside a standard multimode fiber near the critical power. This beam enables fast, high-resolution, volumetric imaging of intact tissues and real-time tracking of protein uptake in a human blood–brain barrier model.
-
-</details>
-
----
-
-## [Intranasal CRISPR- lipid nanoparticles targeting MAPK9 reduce neuroinflammation after traumatic brain injury](https://www.biorxiv.org/content/10.64898/2026.04.25.720847v1?rss=1)
+## [Lamellar Normative Modelling of the Hippocampus Across the Human Lifespan](https://www.biorxiv.org/content/10.64898/2026.05.02.722431v1?rss=1)
 *bioRxiv*  
-Score: **0.40**  
-Published: 2026-04-26T00:00:00+00:00
-Tags: neuronal inflammation, CRISPR, brain injury
+Score: **0.60**  
+Published: 2026-05-04T00:00:00+00:00
+Tags: hippocampus, timescales, modeling
 
-Includes aspects of targeting neural circuits and inflammation that might intersect with computational neuroscience in neural damage contexts.
+Focuses on hippocampal geometry, neural dynamics, and timescales with computational modeling aspects.
 
 <details>
 <summary>RSS summary</summary>
 
-Traumatic brain injury (TBI) triggers a sustained neuroinflammatory response driven by activated microglia, which contributes to secondary injury and long-term neurological dysfunction. Therapeutic reprogramming of microglial activation from a pro-inflammatory (M1-like) to a reparative (M2-like) phenotype represents a promising strategy; however, the lack of cell-specific targeting within an injured brain has limited clinical translation. Here, we developed a targeted gene-editing nanotherapy to…
+The hippocampus is a central hub of human memory and cognition and is closely associated with brain disorders. Studies have shown that it exhibits complex structural variation across the lifespan, yet the details of hippocampal morphology changes remain poorly understood. Here, we establish norms over the hippocampal geometry that resolve lamellar morphology and map lifespan trajectories across more than 27,000 individuals from 158 scanning sites. Hippocampal geometry shows spatially non-uniform…
 
 </details>
 
