@@ -1,211 +1,228 @@
-# Weekly ToC Digest (week of 2026-06-01)
+# Weekly ToC Digest (week of 2026-06-08)
 
-Papers focused on neural oscillations, electrophysiology, and time series analysis were prioritized, while clinical and non-neuroscience papers were down-weighted. Prioritizing papers with neural/physiological time series methods, oscillations, spectral parameterization, and electrophysiology as per interests. Prioritized articles focus on neural dynamics, electrophysiological methods, and computational neuroscience related to physiological time-series data, aligning with interests in oscillations, aperiodic dynamics, and signal processing. The most relevant paper aligns with preferences for time series analysis and decision-making related to neural circuits, despite not focusing directly on methods of signal processing.
+Papers were scored based on the presence of neural/physiological methods, focus on oscillations, electrophysiological data, and computational modeling relevant to the user's interests. Prioritized papers involving neural time series methods and electrophysiology, down-weighted clinical/psychiatry, and microbiology papers irrelevant to neural dynamics. This digest focuses on neural/physiological time series, oscillations, computational modeling, and cross-species electrophysiology. Most papers do not align with the interests in neural/physiological signal processing, oscillations, or electrophysiology methods.
 
-**Included:** 12 (score ≥ 0.35)  
-**Scored:** 12 total items
+**Included:** 13 (score ≥ 0.35)  
+**Scored:** 15 total items
 
 ---
 
-## [A learning-evoked slow-oscillatory architecture paces population activity for offline reactivation across the human medial temporal lobe](https://www.cell.com/neuron/fulltext/S0896-6273(26)00375-2?rss=yes)
+## [Prefrontal gamma oscillations engage dynamic cell-type-specific configurations to support flexible behavior](https://www.cell.com/neuron/fulltext/S0896-6273(26)00373-9?rss=yes)
 *Neuron*  
-Score: **0.95**  
-Published: 2026-06-01T00:00:00+00:00
-Tags: oscillations, timescales
-
-This paper explores slow-oscillatory dynamics and gamma synchronization, highly relevant to oscillations and neuronal timescales.
-
-<details>
-<summary>RSS summary</summary>
-
-Causse et al. identify a learning-evoked slow-oscillatory architecture in the human medial temporal lobe. Transient hippocampal 2-Hz bursts pace neuronal spiking and synchronize gamma-band activity across the MTL, structuring population coactivity motifs during learning. These coactivity motifs are selectively reactivated during hippocampal ripples during post-learning rest, and reactivation strength predicts subsequent recall, linking encoding, consolidation, and retrieval through a unified coo…
-
-</details>
-
----
-
-## [Reading and writing neural activity with Neuropixels Opto probes](https://www.nature.com/articles/s41592-026-03077-y)
-*Nature Methods*  
-Score: **0.95**  
-Published: 2026-06-01T00:00:00+00:00
-Tags: methods, electrophysiology, neural recording
-
-This paper presents a method involving high-density electrophysiology combined with optogenetics for neuronal activity recording, aligning with interests in electrophysiology methods.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Methods, Published online: 01 June 2026; <a href="https://www.nature.com/articles/s41592-026-03077-y">doi:10.1038/s41592-026-03077-y</a></p>High-density electrophysiology devices allow neuroscientists to observe spikes from large populations of neurons, and optogenetics allows them to drive or suppress those spikes. We show that a single device can combine these two capabilities, providing a high-resolution means to both read and write neural activity in the living brain.
-
-</details>
-
----
-
-## [Neuropixels Opto: combining high-resolution electrophysiology and optogenetics](https://www.nature.com/articles/s41592-026-03076-z)
-*Nature Methods*  
-Score: **0.93**  
-Published: 2026-06-01T00:00:00+00:00
-Tags: electrophysiology, optogenetics, neural signal
-
-This study showcases simultaneous recording and optogenetic stimulation in a high-density setting, closely related to the user's interest in electrophysiology methods.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Methods, Published online: 01 June 2026; <a href="https://www.nature.com/articles/s41592-026-03076-z">doi:10.1038/s41592-026-03076-z</a></p>Neuropixels Opto probes combine high-density recording sites with optical waveguide-based light emission sites for simultaneous recording of neuronal activity and optogenetic stimulation with blue and/or red light. As demonstrated in the mouse brain, these probes allow the activation or silencing of defined groups of neurons while acquiring high-qu…
-
-</details>
-
----
-
-## [Elementary Dynamics of Neural Microcircuits](https://www.biorxiv.org/content/10.64898/2026.05.29.728781v1?rss=1)
-*bioRxiv*  
 Score: **0.90**  
-Published: 2026-05-31T00:00:00+00:00
-Tags: dynamics, oscillations, computational
+Published: 2026-06-08T00:00:00+00:00
+Tags: oscillations, behavior, neural dynamics
 
-Focuses on dynamics, oscillations, and computational neuroscience. Discusses E-I interactions leading to oscillations and multistability.
+This paper discusses gamma oscillations and their role in flexible behavior, aligning with interests in oscillations and neural dynamics.
 
 <details>
 <summary>RSS summary</summary>
 
-Interactions between distinct populations of excitatory (E) and inhibitory (I) neurons can produce complex dynamical landscapes, featuring multistability, oscillations, and paradoxical perturbation responses. By employing an elementary model, the threshold-linear network (TLN), we indicate mathematical conditions for each dynamical regime across fundamental microcircuit architectures, thereby mapping previously unrelated systems neuroscience hypotheses to a common reference space and obtaining n…
+Phensy et al. show that prefrontal gamma activity is composed of multiple, cell-type-specific synchrony patterns that differentially manifest during decision-making and outcome periods and track changes in behavioral strategies. These patterns offer a new framework for understanding cognitive flexibility and its disruption in disorders such as schizophrenia.
 
 </details>
 
 ---
 
-## [Deep brain stimulation induces white matter remodeling and functional changes to brain-wide networks](https://www.nature.com/articles/s41593-026-02301-4)
+## [Induction of cortical on/off periods in awake mice fulfills sleep functions](https://www.nature.com/articles/s41593-026-02318-9)
 *Nature Neuroscience*  
-Score: **0.85**  
-Published: 2026-06-01T00:00:00+00:00
-Tags: electrophysiology, neural dynamics
-
-Investigates brain-wide network changes due to stimulation, relevant to cross-species electrophysiology and neural dynamics.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Neuroscience, Published online: 01 June 2026; <a href="https://www.nature.com/articles/s41593-026-02301-4">doi:10.1038/s41593-026-02301-4</a></p>In a nonhuman primate model, Fujimoto et al. show that deep brain stimulation promotes white matter remodeling and reorganizes brain-wide functional networks, detailing a mechanism through which this neuromodulation therapy may treat depression.
-
-</details>
-
----
-
-## [Comparison of Automated White Matter Lesion Segmentation Approaches for Use in Large, Multi-Site Data Analyses in Parkinson's Disease](https://www.biorxiv.org/content/10.64898/2026.05.27.726795v1?rss=1)
-*bioRxiv*  
-Score: **0.85**  
-Published: 2026-05-30T00:00:00+00:00
-Tags: data science, imaging, processing
-
-Relates to data processing and analysis in brain imaging, useful for physiological signal processing in neural contexts.
-
-<details>
-<summary>RSS summary</summary>
-
-Background: Parkinson's disease (PD) is the second most common neurodegenerative disorder. PD currently lacks effective disease-modifying treatments, likely due to its diverse clinical features and underlying neuropathology. The vascular role in PD is emerging, with vascular mechanisms increasingly implicated, yet the literature remains conflicted, motivating large-data analyses with greater statistical power. White matter lesions (WML) are an accepted imaging marker of small vessel disease. Acc…
-
-</details>
-
----
-
-## [Temporal structure of task engagement organizes infra-slow BOLD dynamics](https://www.biorxiv.org/content/10.64898/2026.05.27.727996v1?rss=1)
-*bioRxiv*  
-Score: **0.85**  
-Published: 2026-05-29T00:00:00+00:00
-Tags: BOLD, timescales, dynamics
-
-Investigates how task timing influences BOLD power spectra, relevant to oscillations and time-series analysis.
-
-<details>
-<summary>RSS summary</summary>
-
-Task-based fMRI has traditionally characterized cognitive engagement through spatial patterns of BOLD activation, leaving less understood whether tasks also organize brain activity along the frequency dimension. Here, we tested whether temporally structured attention reshapes infra-slow BOLD dynamics by imposing frequency-specific organization on ongoing cortical activity. Across three independent fMRI datasets, task timing systematically shaped the BOLD power spectrum. In the main visual attent…
-
-</details>
-
----
-
-## [Ultrasensitive voltage imaging reveals distinct electrical microdomains in neurons](https://www.biorxiv.org/content/10.64898/2026.05.27.728040v1?rss=1)
-*bioRxiv*  
 Score: **0.80**  
-Published: 2026-05-31T00:00:00+00:00
-Tags: voltage imaging, neurons, dynamics
+Published: 2026-06-08T00:00:00+00:00
+Tags: cortical dynamics, neural timescales, oscillations
 
-Uses cutting-edge imaging for neural dynamics at the micro level, pertinent to electrophysiological methods.
+The study involves cortical dynamics and sleep-related neural enhancements, relevant to neuronal timescales and oscillations.
 
 <details>
 <summary>RSS summary</summary>
 
-For the brain to compute, electrical signals must propagate over the membranes of individual neurons, connecting synaptic inputs to synaptic outputs. Complex neuronal morphologies coupled with the spatial organization of synaptic inputs and outputs enable diverse voltage transformations that underlie cell-type specific computations. However, measuring these transformations in vivo has remained challenging, leaving a crucial gap in our mechanistic understanding of single neuron computation. Here,…
+<p>Nature Neuroscience, Published online: 08 June 2026; <a href="https://www.nature.com/articles/s41593-026-02318-9">doi:10.1038/s41593-026-02318-9</a></p>Driessen et al. show that core benefits of sleep—reduced local sleep pressure, renormalized synaptic strength and memory consolidation—can be reproduced in awake, behaving mice by inducing sleep-like on/off activity patterns in cortex.
 
 </details>
 
 ---
 
-## [Relative Hemodynamic Timing in Human White Matter](https://www.biorxiv.org/content/10.64898/2026.05.29.728865v1?rss=1)
+## [Temporal coding expands the bandwidth of GPCR-mediated neuromodulation](https://www.biorxiv.org/content/10.64898/2026.06.03.729927v1?rss=1)
 *bioRxiv*  
-Score: **0.80**  
-Published: 2026-05-31T00:00:00+00:00
-Tags: hemodynamics, timing, white matter
+Score: **0.75**  
+Published: 2026-06-06T00:00:00+00:00
+Tags: neuromodulation, temporal coding
 
-Explores hemodynamic timing which is significant in physiological and signal processing studies.
+Focus on neuromodulation and temporal coding relevant to electrophysiology and neural dynamics.
 
 <details>
 <summary>RSS summary</summary>
 
-Hemodynamic lag in white matter (WM) remains poorly understood despite its relevance to neurovascular health. We developed Local Propagation Mapping to quantify the spatiotemporal architecture of relative hemodynamic timing within WM. In young adults, WM lag architecture was reliable, aligned with venous anatomy, and reconfigured during working-memory task engagement; the magnitude of macroscopic lag modulation was associated with cognitive performance. Across aging, resting-state WM lag showed …
+The advent of modern transcriptomic approaches has revealed a breadth of neuromodulatory G protein-coupled receptor (GPCR) co-expression far exceeding what was previously thought. This raises a fundamental question about neuromodulatory system architecture because there is a much smaller number of available G protein transducers. Does this impose an information 'bottleneck', or can a single transducer pathway distinguish the effects of different neuromodulators? We addressed this question by foc…
 
 </details>
 
 ---
 
-## [Neurofeedback enhances a neural signature of selective attention to speech in cocktail-party settings](https://www.biorxiv.org/content/10.64898/2026.05.29.728767v1?rss=1)
+## [Sound-evoked orofacial motion only affects a fraction of visually responsive V1 neurons in a multisensory detection task with delayed reward delivery](https://www.biorxiv.org/content/10.64898/2026.06.05.730357v1?rss=1)
 *bioRxiv*  
 Score: **0.70**  
-Published: 2026-05-31T00:00:00+00:00
-Tags: EEG, neurofeedback, signal processing
+Published: 2026-06-08T00:00:00+00:00
+Tags: electrophysiology, cross-modal processing, neural dynamics
 
-This paper discusses EEG-based neurofeedback which relates to physiological signal processing, one of the user's interests.
+The paper touches on electrophysiology and neural response dynamics, relevant to cross-modal and sensory processing.
 
 <details>
 <summary>RSS summary</summary>
 
-Understanding speech in noisy situations is challenging and often fails due to attentional rather than sensory deficits. We report here that neurofeedback can enhance a neural signature of selective attention to speech in a cocktail-party setting. Neural responses to speech were quantified in participants' electroencephalogram (EEG) while they attended to one of two audiobooks, presented simultaneously. After each 22s-segment of speech, the participants' N1 component was extracted from the tempo…
+Auditory stimuli have been known to elicit neural responses in visual cortical areas, but such responses are partly associated with sound-evoked orofacial movements. However, it remains unclear to what extent neural correlates of movement can be dissociated from non-motor correlates. Here we developed a paradigm with a forced delayed-response mechanism by means of a moving reward apparatus in order to test whether this results in low amounts of movement-related neural activity shortly after stim…
 
 </details>
 
 ---
 
-## [Control of representation updating by higher-order thalamus enables history-based decision-making](https://www.cell.com/neuron/fulltext/S0896-6273(26)00340-5?rss=yes)
+## [Flexible neural encoding predicts the comprehension of degraded speech](https://www.biorxiv.org/content/10.64898/2026.06.05.730499v1?rss=1)
+*bioRxiv*  
+Score: **0.70**  
+Published: 2026-06-05T00:00:00+00:00
+Tags: EEG, neural encoding
+
+Examines neural encoding and EEG, relevant to electrophysiology and signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+How listeners track a variable and continuous acoustic speech signal and parse it into meaningful linguistic representations is a question central to auditory neuroscience. Moreover, the resilience of this process to acoustic signal degradation is not fully understood. The current study consists of a listening task wherein participants (n = 38) were presented with a naturalistic story whilst undergoing continuous electroencephalography (EEG). Critically, we manipulated access to speech informati…
+
+</details>
+
+---
+
+## [SSDLabeler: realistic semi-synthetic data generation for multi-label artifact classification in EEG](https://www.nature.com/articles/s41598-026-56070-y)
+*Scientific Reports*  
+Score: **0.65**  
+Published: 2026-06-08T00:00:00+00:00
+Tags: EEG, signal processing, artifact classification
+
+The focus on EEG data preprocessing techniques aligns with interests in electrophysiological signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Scientific Reports, Published online: 08 June 2026; <a href="https://www.nature.com/articles/s41598-026-56070-y">doi:10.1038/s41598-026-56070-y</a></p>SSDLabeler: realistic semi-synthetic data generation for multi-label artifact classification in EEG
+
+</details>
+
+---
+
+## [Disambiguation of two-tone images reveals semantic contributions to object recognition in the EEG](https://www.biorxiv.org/content/10.64898/2026.06.05.730193v1?rss=1)
+*bioRxiv*  
+Score: **0.65**  
+Published: 2026-06-05T00:00:00+00:00
+Tags: EEG, semantic processing
+
+Uses EEG to study semantic contributions, linking to interest in neural data analysis.
+
+<details>
+<summary>RSS summary</summary>
+
+Electrophysiological responses to visual objects carry information about stimulus identity and semantic category, but it remains difficult to know whether such information represents semantic knowledge or merely regularities in physical image features. Here, we presented two-tone images while recording EEG to dissociate the learned semantic concept from physical stimulus properties in the electrophysiological signal. Seventeen healthy participants completed a semantic disambiguation experiment w…
+
+</details>
+
+---
+
+## [A modular neural circuit for computing the motion of objects](https://www.biorxiv.org/content/10.64898/2026.06.07.730718v1?rss=1)
+*bioRxiv*  
+Score: **0.60**  
+Published: 2026-06-08T00:00:00+00:00
+Tags: electrophysiology, neural circuit, motion computation
+
+Highlights neural circuitry related to motion computation, which involves electrophysiological recordings and model-based analyses.
+
+<details>
+<summary>RSS summary</summary>
+
+Computing the direction of a moving object requires integrating motion signals from its component edges into coherent patterns. The representation of pattern motion in visual cortex has been extensively studied, yet its underlying neural circuitry remains unknown. Using high-density recordings in macaque area MT, we show that selectivity to pattern motion emerges from a functionally and anatomically distinct cortical circuit. We demonstrate that neurons specialized for encoding component and pat…
+
+</details>
+
+---
+
+## [iAstrocytes model cytokine influences on complement expression and neuronal network synchronization.](https://www.biorxiv.org/content/10.64898/2026.06.04.730242v1?rss=1)
+*bioRxiv*  
+Score: **0.60**  
+Published: 2026-06-05T00:00:00+00:00
+Tags: neuronal synchronization, astrocytes
+
+Involves neuronal network synchronization, relevant to neural data and modeling.
+
+<details>
+<summary>RSS summary</summary>
+
+Astrocytes play essential roles in neuronal development, function, and disease, yet existing methods to derive astrocytes from human pluripotent stem cells (hPSCs) are complex and can involve months of in vitro maturation. We developed a genomic safe-harbor knock-in system for inducible expression of the astrogenic transcription factors NFIA, NFIB, and SOX9, enabling rapid and robust generation of functional induced astrocytes (iAstrocytes). Across five hPSC lines, NFIB-SOX9 and NFIA-NFIB-SOX9 c…
+
+</details>
+
+---
+
+## [POINTseq: Cell-type-specific barcoding reveals single-cell projection architecture of the mouse dopaminergic system](https://www.cell.com/neuron/fulltext/S0896-6273(26)00376-4?rss=yes)
 *Neuron*  
-Score: **0.70**  
-Published: 2026-05-29T00:00:00+00:00
-Tags: neural dynamics, decision-making
+Score: **0.60**  
+Published: 2026-06-04T00:00:00+00:00
+Tags: methods, connectivity, neuroscience
 
-Focus on neural circuits and decision-making involving thalamic and cortical networks. Relates to neural dynamics and updates in internal representations, resonating with neural timescales interests.
+The paper introduces POINTseq, a barcoded method for mapping single-neuron projections in the mouse brain, relevant to understanding brain connectivity and potential cross-species application.
 
 <details>
 <summary>RSS summary</summary>
 
-How does the brain navigate uncertainty in a dynamic environment? In this study, Hosford, Mei, et al. show that computations implemented across a network of thalamic and cortical circuits continuously update internal representations of recent experiences to help mice make decisions based on limited or ambiguous information.
+Kim et al. introduce POINTseq, a high-throughput barcoded connectomics method for mapping brain-wide single-neuron projections of a specific cell population defined by common viral-genetic tools. Applying POINTseq to mouse midbrain dopamine neurons reveals diverse connectomic cell types and stereotyped collateral wiring patterns that may underlie distinct dopamine functions.
 
 </details>
 
 ---
 
-## [Towards a holistic understanding of pain in the biomarker age](https://www.nature.com/articles/s41593-026-02323-y)
-*Nature Neuroscience*  
-Score: **0.40**  
-Published: 2026-06-01T00:00:00+00:00
-Tags: biomarkers, time series
+## [Human-AI co-design for clinical prediction models](https://www.nature.com/articles/s41746-026-02838-5)
+*npj Digital Med*  
+Score: **0.55**  
+Published: 2026-06-06T00:00:00+00:00
+Tags: AI, prediction models
 
-Mentions physiological time series in developing pain biomarkers, albeit peripheral relevance to primary interests.
+Utilizes AI for prediction models, relevant for computational neuroscience methods.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Nature Neuroscience, Published online: 01 June 2026; <a href="https://www.nature.com/articles/s41593-026-02323-y">doi:10.1038/s41593-026-02323-y</a></p>Pain biomarkers cannot prove or disprove another person’s pain, but they need not be rejected as futile or reductionist. When developed within a bio-psycho-social framework and guided by epistemic humility and ethical safeguards, they can complement and enrich the voices of those living with pain rather than replace them.
+<p>npj Digital Medicine, Published online: 06 June 2026; <a href="https://www.nature.com/articles/s41746-026-02838-5">doi:10.1038/s41746-026-02838-5</a></p>Human-AI co-design for clinical prediction models
+
+</details>
+
+---
+
+## [Resolving rapid cell-surface proteome remodelling in intact neural circuits](https://www.nature.com/articles/s41583-026-01052-2)
+*Nature Rev Neurosci*  
+Score: **0.50**  
+Published: 2026-06-05T00:00:00+00:00
+Tags: methods
+
+This Tools of the Trade article on endocytome profiling could be relevant for cross-species electrophysiology and physiological signal processing, though it primarily focuses on protein remodeling.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Reviews Neuroscience, Published online: 05 June 2026; <a href="https://www.nature.com/articles/s41583-026-01052-2">doi:10.1038/s41583-026-01052-2</a></p>In this Tools of the Trade article, Colleen McLaughlin describes endocytome profiling, a systematic and quantitative approach for monitoring of cell-surface protein remodelling in the intact brain.
+
+</details>
+
+---
+
+## [Simultaneous transformations of view and place coding across reference frames in the macaque brain](https://www.pnas.org/doi/abs/10.1073/pnas.2530923123?af=R)
+*PNAS*  
+Score: **0.40**  
+Published: 2026-06-03T07:00:00+00:00
+Tags: neuroscience, electrophysiology
+
+This study examines neural coding across brain pathways in macaques, touching on electrophysiological aspects of spatial representation.
+
+<details>
+<summary>RSS summary</summary>
+
+Proceedings of the National Academy of Sciences, Volume 123, Issue 23, June 2026. <br />SignificanceIn primates, it has remained unclear how spatial view and standard place coding are related. By recording neural activity along the parietal–retrosplenial–hippocampal pathway in freely moving macaques, we found that both codes are represented ...
 
 </details>
 
